@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert ['改进建议', '页面布局', '提BUG'] == \"['改进建议', '页面布局', '提BUG']\"",
+      "children" : [ {
+        "name" : "意见反馈 - 反馈类型有三个下拉选项：改进建议，页面布局，提BUG",
+        "uid" : "2021751c47f4de18",
+        "parentUid" : "dda4d3142f94e7138a88590095700a1a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654607160538,
+          "stop" : 1654607160658,
+          "duration" : 120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dda4d3142f94e7138a88590095700a1a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

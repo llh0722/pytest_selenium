@@ -1,0 +1,208 @@
+{
+  "uid" : "129cba86449b40c2",
+  "name" : "test_feedback_5[test_input2-提交成功！]",
+  "fullName" : "testcases.test_userFeedbackIframePage.TestUserFeedbackIframePage#test_feedback_5",
+  "historyId" : "7ab076a6aac4d4d17a112304ea4043cf",
+  "time" : {
+    "start" : 1654607182872,
+    "stop" : 1654607183214,
+    "duration" : 342
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 8,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1654607157190,
+      "stop" : 1654607159653,
+      "duration" : 2463
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "userFeedbackIframePage",
+    "time" : {
+      "start" : 1654607159653,
+      "stop" : 1654607159653,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1654607159653,
+      "stop" : 1654607159653,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "open_feedback",
+    "time" : {
+      "start" : 1654607182648,
+      "stop" : 1654607182872,
+      "duration" : 224
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1654607185034,
+      "stop" : 1654607187229,
+      "duration" : 2195
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_userFeedbackIframePage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserFeedbackIframePage"
+  }, {
+    "name" : "host",
+    "value" : "SC-201811111704"
+  }, {
+    "name" : "thread",
+    "value" : "2784-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_userFeedbackIframePage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "'提交成功！'"
+  }, {
+    "name" : "test_input",
+    "value" : "{'subject': '改进建议', 'textarea': '', 'email': '1111@qq.com'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5906291be9857857",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('driver', <SubRequest 'userFeedbackIframePage' for <Function test_feedback_5[test_input2-\\u63d0\\u4ea4\\u6210\\u529f\\uff01]>>)",
+      "time" : {
+        "start" : 1654607105425,
+        "stop" : 1654607105425,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e63c8ed53665f290",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('_driver', <SubRequest 'userFeedbackIframePage' for <Function test_feedback_5[test_input2-\\u63d0\\u4ea4\\u6210\\u529f\\uff01]>>)",
+      "time" : {
+        "start" : 1654606877365,
+        "stop" : 1654606877365,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2cacd42db9773b36",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('driver', <SubRequest 'userFeedbackIframePage' for <Function test_feedback_5[test_input2-\\u63d0\\u4ea4\\u6210\\u529f\\uff01]>>)",
+      "time" : {
+        "start" : 1654606832447,
+        "stop" : 1654606832447,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "56fdac429ae4f7aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654524480118,
+        "stop" : 1654524480518,
+        "duration" : 400
+      }
+    }, {
+      "uid" : "f4e97bf8e72748ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654524360351,
+        "stop" : 1654524360778,
+        "duration" : 427
+      }
+    }, {
+      "uid" : "bf198216cb5f3b35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654524043696,
+        "stop" : 1654524044059,
+        "duration" : 363
+      }
+    }, {
+      "uid" : "976cd40d26e9f677",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654523882592,
+        "stop" : 1654523883275,
+        "duration" : 683
+      }
+    }, {
+      "uid" : "e65b3423d9801ace",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654521611479,
+        "stop" : 1654521611899,
+        "duration" : 420
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "129cba86449b40c2.json",
+  "parameterValues" : [ "'提交成功！'", "{'subject': '改进建议', 'textarea': '', 'email': '1111@qq.com'}" ]
+}

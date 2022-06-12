@@ -1,0 +1,44 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jun 06 21:22:41 CST 2022","Mon Jun 06 21:22:41 CST 2022","30","testcases","test_userRegisterPage","TestUserRegisterPage","","","test_user_register_12","注册-点页面“立即登陆”按钮，点击跳转到登陆页/users/login/"
+"passed","Mon Jun 06 21:22:38 CST 2022","Mon Jun 06 21:22:39 CST 2022","482","testcases","test_userRegisterPage","TestUserRegisterPage","","","test_user_register_5","
+        注册-邮箱格式正确(111@qq.com), 密码大于20位，
+        点提交按钮，密码框提示红色（class属性errorput）
+        "
+"passed","Tue Jun 07 21:06:10 CST 2022","Tue Jun 07 21:06:13 CST 2022","3156","testcases","test_userFeedbackIframePage","TestUserFeedbackIframePage","","","test_feedback_3[页面布局]","意见反馈-反馈类型选页面布局，被选中：页面布局"
+"passed","Mon Jun 06 21:21:49 CST 2022","Mon Jun 06 21:21:50 CST 2022","553","testcases","test_userLoginPage","TestUserLoginPase","","","test_user_login_1","登录-输入用户名为空，任意密码123456,点登陆按钮，提示：这个字段是必须的"
+"passed","Mon Jun 06 21:22:39 CST 2022","Mon Jun 06 21:22:40 CST 2022","259","testcases","test_userRegisterPage","TestUserRegisterPage","","","test_user_register_7","'注册-密码框输入文本：123456，显示******'"
+"passed","Mon Jun 06 21:22:12 CST 2022","Mon Jun 06 21:22:33 CST 2022","21596","testcases","test_userLoginPage","TestUserLoginPase","","","test_user_login_4","登录-输入正确的邮箱1234@qq.com，正确的密码:123456，登录成功"
+"passed","Mon Jun 06 21:22:40 CST 2022","Mon Jun 06 21:22:40 CST 2022","40","testcases","test_userRegisterPage","TestUserRegisterPage","","","test_user_register_9","注册-点页面“logo图片”，点击跳转到首页/"
+"passed","Tue Jun 07 21:06:22 CST 2022","Tue Jun 07 21:06:22 CST 2022","420","testcases","test_userFeedbackIframePage","TestUserFeedbackIframePage","","","test_feedback_5[test_input1-提交成功！]",""
+"passed","Tue Jun 07 21:06:22 CST 2022","Tue Jun 07 21:06:23 CST 2022","342","testcases","test_userFeedbackIframePage","TestUserFeedbackIframePage","","","test_feedback_5[test_input2-提交成功！]",""
+"passed","Mon Jun 06 21:22:35 CST 2022","Mon Jun 06 21:22:36 CST 2022","739","testcases","test_userRegisterDb","TestUserRegisterPage","","","test_user_register_1",""
+"passed","Tue Jun 07 21:06:20 CST 2022","Tue Jun 07 21:06:21 CST 2022","434","testcases","test_userFeedbackIframePage","TestUserFeedbackIframePage","","","test_feedback_4","'意见反馈，反馈类型：改进建议，反馈内容为空，联系方式为空，
+        点send提交按钮，alert弹窗提示：提交成功！"
+"passed","Mon Jun 06 21:22:38 CST 2022","Mon Jun 06 21:22:38 CST 2022","445","testcases","test_userRegisterPage","TestUserRegisterPage","","","test_user_register_4","
+        注册-邮箱格式正确(111@qq.com), 密码小于6位，
+        点提交按钮，密码框提示红色（class属性errorput）
+        "
+"passed","Mon Jun 06 21:22:40 CST 2022","Mon Jun 06 21:22:40 CST 2022","45","testcases","test_userRegisterPage","TestUserRegisterPage","","","test_user_register_8","注册-点页面“回到首页”按钮，点击跳转到首页/"
+"passed","Mon Jun 06 21:22:37 CST 2022","Mon Jun 06 21:22:38 CST 2022","435","testcases","test_userRegisterPage","TestUserRegisterPage","","","test_user_register_3","
+        注册-邮箱格式正确(111@qq.com),密码为空，
+        点提交按钮，密码框提示红色（class属性errorput）
+        "
+"passed","Tue Jun 07 21:06:17 CST 2022","Tue Jun 07 21:06:20 CST 2022","3108","testcases","test_userFeedbackIframePage","TestUserFeedbackIframePage","","","test_feedback_3[改进建议]","意见反馈-反馈类型选页面布局，被选中：页面布局"
+"passed","Mon Jun 06 21:22:37 CST 2022","Mon Jun 06 21:22:37 CST 2022","500","testcases","test_userRegisterPage","TestUserRegisterPage","","","test_user_register_2"," 注册-邮箱格式不正确，密码为空，
+        点提交按钮，邮箱输入框红色提示(class 属性包含errorput)"
+"passed","Tue Jun 07 21:06:14 CST 2022","Tue Jun 07 21:06:17 CST 2022","3161","testcases","test_userFeedbackIframePage","TestUserFeedbackIframePage","","","test_feedback_3[提BUG]","意见反馈-反馈类型选页面布局，被选中：页面布局"
+"passed","Tue Jun 07 21:06:24 CST 2022","Tue Jun 07 21:06:24 CST 2022","335","testcases","test_userFeedbackIframePage","TestUserFeedbackIframePage","","","test_feedback_5[test_input4-提交成功！]",""
+"passed","Mon Jun 06 21:22:34 CST 2022","Mon Jun 06 21:22:34 CST 2022","841","testcases","test_userLoginPage","TestUserLoginPase","","","test_user_forgetPwd_5","登录-忘记密码"
+"passed","Mon Jun 06 21:22:40 CST 2022","Mon Jun 06 21:22:40 CST 2022","42","testcases","test_userRegisterPage","TestUserRegisterPage","","","test_user_register_10","注册-点页面“登陆”按钮，点击跳转到登陆页/users/login/"
+"passed","Tue Jun 07 21:06:01 CST 2022","Tue Jun 07 21:06:10 CST 2022","9411","testcases","test_userFeedbackIframePage","TestUserFeedbackIframePage","","","test_feedback_2","意见反馈-反馈类型选页面布局，被选中：页面布局"
+"passed","Mon Jun 06 21:22:40 CST 2022","Mon Jun 06 21:22:41 CST 2022","141","testcases","test_userRegisterPage","TestUserRegisterPage","","","test_user_register_11","注册-点页面“注册”按钮，点击跳转到登陆页/users/register/"
+"failed","Tue Jun 07 21:06:00 CST 2022","Tue Jun 07 21:06:00 CST 2022","120","testcases","test_userFeedbackIframePage","TestUserFeedbackIframePage","","","意见反馈 - 反馈类型有三个下拉选项：改进建议，页面布局，提BUG","意见反馈 - 反馈类型有三个下拉选项：改进建议，页面布局，提BUG"
+"passed","Mon Jun 06 21:22:39 CST 2022","Mon Jun 06 21:22:39 CST 2022","248","testcases","test_userRegisterPage","TestUserRegisterPage","","","test_user_register_6","注册-邮箱输入框，输入文本：111@qq.com，再清空文本，输入框为空"
+"passed","Mon Jun 06 21:22:36 CST 2022","Mon Jun 06 21:22:36 CST 2022","437","testcases","test_userRegisterPage","TestUserRegisterPage","","","test_user_register_1"," 注册-输入邮箱为空，密码为空，
+        点提交按钮，邮箱/密码输入框红色提示 (class属性包含errorput)"
+"passed","Tue Jun 07 21:06:23 CST 2022","Tue Jun 07 21:06:23 CST 2022","380","testcases","test_userFeedbackIframePage","TestUserFeedbackIframePage","","","test_feedback_5[test_input3-提交成功！]",""
+"passed","Tue Jun 07 21:06:21 CST 2022","Tue Jun 07 21:06:22 CST 2022","271","testcases","test_userFeedbackIframePage","TestUserFeedbackIframePage","","","test_feedback_5[test_input0-提交成功！]",""
+"passed","Tue Jun 07 21:06:24 CST 2022","Tue Jun 07 21:06:25 CST 2022","357","testcases","test_userFeedbackIframePage","TestUserFeedbackIframePage","","","test_feedback_5[test_input5-提交成功！]",""
+"passed","Mon Jun 06 21:22:01 CST 2022","Mon Jun 06 21:22:11 CST 2022","10619","testcases","test_userLoginPage","TestUserLoginPase","","","test_user_login_3","登录-邮箱格式正确123@qq.com，密码不对:111111，提示：用户名或密码错误 "
+"passed","Mon Jun 06 21:21:50 CST 2022","Mon Jun 06 21:22:01 CST 2022","10890","testcases","test_userLoginPage","TestUserLoginPase","","","test_user_login_2","登录-输入邮箱格式不正确“123abc” ,密码123456,点登陆按钮，提示:用户名或密码错误"
+"passed","Mon Jun 06 21:21:49 CST 2022","Mon Jun 06 21:21:49 CST 2022","320","testcases","test_userInfoPage","TestUserInfoPage","","","test_userInfo_1",""

@@ -1,0 +1,556 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcases",
+    "children" : [ {
+      "name" : "test_userInfoPage",
+      "children" : [ {
+        "name" : "test_userInfo_1",
+        "uid" : "ae263ccb2959463b",
+        "parentUid" : "9aae57872cdd45a6fb3e63ee0c6b51b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654521709053,
+          "stop" : 1654521709373,
+          "duration" : 320
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9aae57872cdd45a6fb3e63ee0c6b51b4"
+    }, {
+      "name" : "test_userLoginPage",
+      "children" : [ {
+        "name" : "test_user_login_1",
+        "uid" : "38397887ccc42022",
+        "parentUid" : "427b716aea2746453f6f31f3c3c632f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654521709606,
+          "stop" : 1654521710159,
+          "duration" : 553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_login_2",
+        "uid" : "55e35cee4d785a4e",
+        "parentUid" : "427b716aea2746453f6f31f3c3c632f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654521710255,
+          "stop" : 1654521721145,
+          "duration" : 10890
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_login_3",
+        "uid" : "f37de6d6fd842e61",
+        "parentUid" : "427b716aea2746453f6f31f3c3c632f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654521721297,
+          "stop" : 1654521731916,
+          "duration" : 10619
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_login_4",
+        "uid" : "f5db85be281109da",
+        "parentUid" : "427b716aea2746453f6f31f3c3c632f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654521732085,
+          "stop" : 1654521753681,
+          "duration" : 21596
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_forgetPwd_5",
+        "uid" : "36b5cc7c0692bed8",
+        "parentUid" : "427b716aea2746453f6f31f3c3c632f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654521754114,
+          "stop" : 1654521754955,
+          "duration" : 841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "427b716aea2746453f6f31f3c3c632f6"
+    }, {
+      "name" : "test_userRegisterDb",
+      "children" : [ {
+        "name" : "test_user_register_1",
+        "uid" : "52953cf1780ad98",
+        "parentUid" : "c571b507b27cfa926ea9856718ef8150",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654521755445,
+          "stop" : 1654521756184,
+          "duration" : 739
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c571b507b27cfa926ea9856718ef8150"
+    }, {
+      "name" : "test_userRegisterPage",
+      "children" : [ {
+        "name" : "test_user_register_1",
+        "uid" : "b38c9c215ebc77bd",
+        "parentUid" : "154790b413072e2483db25df037816b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654521756438,
+          "stop" : 1654521756875,
+          "duration" : 437
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_register_2",
+        "uid" : "208f54d95f51d0",
+        "parentUid" : "154790b413072e2483db25df037816b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654521757159,
+          "stop" : 1654521757659,
+          "duration" : 500
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_register_3",
+        "uid" : "fc084908499aefe9",
+        "parentUid" : "154790b413072e2483db25df037816b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654521757756,
+          "stop" : 1654521758191,
+          "duration" : 435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_register_4",
+        "uid" : "e4d68f7725608d61",
+        "parentUid" : "154790b413072e2483db25df037816b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654521758293,
+          "stop" : 1654521758738,
+          "duration" : 445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_register_5",
+        "uid" : "3c9124dcb4e0311d",
+        "parentUid" : "154790b413072e2483db25df037816b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654521758843,
+          "stop" : 1654521759325,
+          "duration" : 482
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_register_6",
+        "uid" : "38ce4e77075e1aaa",
+        "parentUid" : "154790b413072e2483db25df037816b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654521759429,
+          "stop" : 1654521759677,
+          "duration" : 248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_register_7",
+        "uid" : "9b877783f0a9dd84",
+        "parentUid" : "154790b413072e2483db25df037816b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654521759841,
+          "stop" : 1654521760100,
+          "duration" : 259
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_register_8",
+        "uid" : "6825efb6f691bb49",
+        "parentUid" : "154790b413072e2483db25df037816b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654521760398,
+          "stop" : 1654521760443,
+          "duration" : 45
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_register_9",
+        "uid" : "c39e73af13cc0864",
+        "parentUid" : "154790b413072e2483db25df037816b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654521760547,
+          "stop" : 1654521760587,
+          "duration" : 40
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_register_10",
+        "uid" : "ae53ad3169804f05",
+        "parentUid" : "154790b413072e2483db25df037816b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654521760755,
+          "stop" : 1654521760797,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_register_11",
+        "uid" : "10836d0db4270f68",
+        "parentUid" : "154790b413072e2483db25df037816b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654521760955,
+          "stop" : 1654521761096,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_user_register_12",
+        "uid" : "b2ca00a8627745c0",
+        "parentUid" : "154790b413072e2483db25df037816b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654521761211,
+          "stop" : 1654521761241,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "154790b413072e2483db25df037816b4"
+    }, {
+      "name" : "test_userFeedbackIframePage",
+      "children" : [ {
+        "name" : "意见反馈 - 反馈类型有三个下拉选项：改进建议，页面布局，提BUG",
+        "uid" : "2021751c47f4de18",
+        "parentUid" : "ba9ced6a53877d148c85db805d059bbb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654607160538,
+          "stop" : 1654607160658,
+          "duration" : 120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_feedback_2",
+        "uid" : "a8b53e201d2bb7b3",
+        "parentUid" : "ba9ced6a53877d148c85db805d059bbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654607161151,
+          "stop" : 1654607170562,
+          "duration" : 9411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_feedback_3[页面布局]",
+        "uid" : "4c40cc18bfb57846",
+        "parentUid" : "ba9ced6a53877d148c85db805d059bbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654607170777,
+          "stop" : 1654607173933,
+          "duration" : 3156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
+        "parameters" : [ "'页面布局'" ]
+      }, {
+        "name" : "test_feedback_3[提BUG]",
+        "uid" : "179a5ee71ea2eaed",
+        "parentUid" : "ba9ced6a53877d148c85db805d059bbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654607174194,
+          "stop" : 1654607177355,
+          "duration" : 3161
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
+        "parameters" : [ "'提BUG'" ]
+      }, {
+        "name" : "test_feedback_3[改进建议]",
+        "uid" : "86cfb66805d9f89b",
+        "parentUid" : "ba9ced6a53877d148c85db805d059bbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654607177600,
+          "stop" : 1654607180708,
+          "duration" : 3108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
+        "parameters" : [ "'改进建议'" ]
+      }, {
+        "name" : "test_feedback_4",
+        "uid" : "b3eda5795f40b421",
+        "parentUid" : "ba9ced6a53877d148c85db805d059bbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654607180936,
+          "stop" : 1654607181370,
+          "duration" : 434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_feedback_5[test_input0-提交成功！]",
+        "uid" : "eb51e6d7ab7207e4",
+        "parentUid" : "ba9ced6a53877d148c85db805d059bbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654607181731,
+          "stop" : 1654607182002,
+          "duration" : 271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
+        "parameters" : [ "'提交成功！'", "{'subject': '改进建议', 'textarea': '', 'email': ''}" ]
+      }, {
+        "name" : "test_feedback_5[test_input1-提交成功！]",
+        "uid" : "927d4f1029c02282",
+        "parentUid" : "ba9ced6a53877d148c85db805d059bbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654607182218,
+          "stop" : 1654607182638,
+          "duration" : 420
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
+        "parameters" : [ "'提交成功！'", "{'subject': '改进建议', 'textarea': '测试内容test', 'email': ''}" ]
+      }, {
+        "name" : "test_feedback_5[test_input2-提交成功！]",
+        "uid" : "129cba86449b40c2",
+        "parentUid" : "ba9ced6a53877d148c85db805d059bbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654607182872,
+          "stop" : 1654607183214,
+          "duration" : 342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
+        "parameters" : [ "'提交成功！'", "{'subject': '改进建议', 'textarea': '', 'email': '1111@qq.com'}" ]
+      }, {
+        "name" : "test_feedback_5[test_input3-提交成功！]",
+        "uid" : "a2065073c0766bf6",
+        "parentUid" : "ba9ced6a53877d148c85db805d059bbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654607183420,
+          "stop" : 1654607183800,
+          "duration" : 380
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
+        "parameters" : [ "'提交成功！'", "{'subject': '改进建议', 'textarea': '测试内容test', 'email': '1111@qq.com'}" ]
+      }, {
+        "name" : "test_feedback_5[test_input4-提交成功！]",
+        "uid" : "cd020290ff97fb51",
+        "parentUid" : "ba9ced6a53877d148c85db805d059bbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654607184113,
+          "stop" : 1654607184448,
+          "duration" : 335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
+        "parameters" : [ "'提交成功！'", "{'subject': '页面布局', 'textarea': '', 'email': '1111@qq.com'}" ]
+      }, {
+        "name" : "test_feedback_5[test_input5-提交成功！]",
+        "uid" : "5c4d2e05e88143fc",
+        "parentUid" : "ba9ced6a53877d148c85db805d059bbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654607184665,
+          "stop" : 1654607185022,
+          "duration" : 357
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
+        "parameters" : [ "'提交成功！'", "{'subject': '提BUG', 'textarea': '', 'email': '1111@qq.com'}" ]
+      } ],
+      "uid" : "ba9ced6a53877d148c85db805d059bbb"
+    } ],
+    "uid" : "141fa05f02bf329144b0086cf92149a8"
+  } ]
+}

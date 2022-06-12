@@ -1,0 +1,137 @@
+{
+  "uid" : "36f7edcce5f3bdaa",
+  "name" : "意见反馈 - 反馈类型有三个下拉选项：改进建议，页面布局，提BUG",
+  "fullName" : "testcases.test_userFeedbackIframePage.TestUserFeedbackIframePage#test_feedback_1",
+  "historyId" : "2c1652200ad663cb485a38953e0b6230",
+  "time" : {
+    "start" : 1654524457555,
+    "stop" : 1654524457715,
+    "duration" : 160
+  },
+  "description" : "意见反馈 - 反馈类型有三个下拉选项：改进建议，页面布局，提BUG",
+  "descriptionHtml" : "<p>意见反馈 - 反馈类型有三个下拉选项：改进建议，页面布局，提BUG</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert ['改进建议', '页面布局', '提BUG'] == ['改进建议', '页面布局', '提BUG1']\n  At index 2 diff: '提BUG' != '提BUG1'\n  Full diff:\n  - ['改进建议', '页面布局', '提BUG1']\n  ?                       -\n  + ['改进建议', '页面布局', '提BUG']",
+  "statusTrace" : "self = <testcases.test_userFeedbackIframePage.TestUserFeedbackIframePage object at 0x000001A1519D7390>\nuserFeedbackIframePage = <pages.UserFeedbackIframePage.UserFeedbackIframePage object at 0x000001A1519D0860>\n\n    @allure.title(\"意见反馈 - 反馈类型有三个下拉选项：改进建议，页面布局，提BUG\")\n    def test_feedback_1(self, userFeedbackIframePage: UserFeedbackIframePage):\n        \"\"\"意见反馈 - 反馈类型有三个下拉选项：改进建议，页面布局，提BUG\"\"\"\n        all_options = userFeedbackIframePage.all_options()\n        print(\"所有的下拉选项内容：\", all_options)\n>       assert all_options == ['改进建议', '页面布局', '提BUG1']\nE       AssertionError: assert ['改进建议', '页面布局', '提BUG'] == ['改进建议', '页面布局', '提BUG1']\nE         At index 2 diff: '提BUG' != '提BUG1'\nE         Full diff:\nE         - ['改进建议', '页面布局', '提BUG1']\nE         ?                       -\nE         + ['改进建议', '页面布局', '提BUG']\n\ntestcases\\test_userFeedbackIframePage.py:22: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1654524455044,
+      "stop" : 1654524457006,
+      "duration" : 1962
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "open_feedback",
+    "time" : {
+      "start" : 1654524457006,
+      "stop" : 1654524457555,
+      "duration" : 549
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "userFeedbackIframePage",
+    "time" : {
+      "start" : 1654524457006,
+      "stop" : 1654524457006,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1654524457006,
+      "stop" : 1654524457006,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1654524482740,
+      "stop" : 1654524485053,
+      "duration" : 2313
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_userFeedbackIframePage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserFeedbackIframePage"
+  }, {
+    "name" : "host",
+    "value" : "SC-201811111704"
+  }, {
+    "name" : "thread",
+    "value" : "102088-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_userFeedbackIframePage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "36f7edcce5f3bdaa.json",
+  "parameterValues" : [ ]
+}

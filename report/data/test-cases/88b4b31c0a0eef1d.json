@@ -1,0 +1,135 @@
+{
+  "uid" : "88b4b31c0a0eef1d",
+  "name" : "意见反馈 - 反馈类型有三个下拉选项：改进建议，页面布局，提BUG",
+  "fullName" : "testcases.test_userFeedbackIframePage.TestUserFeedbackIframePage#test_feedback_1",
+  "historyId" : "2c1652200ad663cb485a38953e0b6230",
+  "time" : {
+    "start" : 1654524019264,
+    "stop" : 1654524019384,
+    "duration" : 120
+  },
+  "description" : "意见反馈 - 反馈类型有三个下拉选项：改进建议，页面布局，提BUG",
+  "descriptionHtml" : "<p>意见反馈 - 反馈类型有三个下拉选项：改进建议，页面布局，提BUG</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1654524016706,
+      "stop" : 1654524018651,
+      "duration" : 1945
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1654524018651,
+      "stop" : 1654524018651,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "open_feedback",
+    "time" : {
+      "start" : 1654524018651,
+      "stop" : 1654524019264,
+      "duration" : 613
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "userFeedbackIframePage",
+    "time" : {
+      "start" : 1654524018651,
+      "stop" : 1654524018651,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1654524046087,
+      "stop" : 1654524048337,
+      "duration" : 2250
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_userFeedbackIframePage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserFeedbackIframePage"
+  }, {
+    "name" : "host",
+    "value" : "SC-201811111704"
+  }, {
+    "name" : "thread",
+    "value" : "103036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_userFeedbackIframePage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "88b4b31c0a0eef1d.json",
+  "parameterValues" : [ ]
+}

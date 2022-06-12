@@ -1,0 +1,62 @@
+{
+  "uid" : "786b940adeb6ba2a",
+  "name" : "test_feedback_4",
+  "fullName" : "testcases.test_userFeedbackIframePage.TestUserFeedbackIframePage#test_feedback_4",
+  "historyId" : "5105b6c0ab6cef2b8cf7d049ee5e19e6",
+  "time" : {
+    "start" : 1654606832437,
+    "stop" : 1654606832437,
+    "duration" : 0
+  },
+  "description" : "'意见反馈，反馈类型：改进建议，反馈内容为空，联系方式为空，\n        点send提交按钮，alert弹窗提示：提交成功！",
+  "descriptionHtml" : "<p>'意见反馈，反馈类型：改进建议，反馈内容为空，联系方式为空，<br />\n点send提交按钮，alert弹窗提示：提交成功！</p>\n",
+  "status" : "broken",
+  "statusMessage" : "_pytest.fixtures.FixtureLookupError: ('driver', <SubRequest 'userFeedbackIframePage' for <Function test_feedback_4>>)",
+  "statusTrace" : "file F:\\PycharmProjects\\pytest_selenium_allure\\testcases\\test_userFeedbackIframePage.py, line 45\n      def test_feedback_4(self, userFeedbackIframePage: UserFeedbackIframePage):\nfile F:\\PycharmProjects\\pytest_selenium_allure\\testcases\\conftest.py, line 78\n  @pytest.fixture(scope=\"session\")\n  def userFeedbackIframePage(driver, base_url):\nE       fixture 'driver' not found\n>       available fixtures: base_url, browser, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, db, doctest_namespace, extra, include_metadata_in_junit_xml, login_driver, metadata, monkeypatch, open_feedback, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, userFeedbackIframePage, userInfoPage, userLoginPage, userRegisterPage, worker_id\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nF:\\PycharmProjects\\pytest_selenium_allure\\testcases\\conftest.py:78",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_userFeedbackIframePage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserFeedbackIframePage"
+  }, {
+    "name" : "host",
+    "value" : "SC-201811111704"
+  }, {
+    "name" : "thread",
+    "value" : "18524-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_userFeedbackIframePage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "786b940adeb6ba2a.json",
+  "parameterValues" : [ ]
+}

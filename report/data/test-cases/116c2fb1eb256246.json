@@ -1,0 +1,65 @@
+{
+  "uid" : "116c2fb1eb256246",
+  "name" : "test_feedback_3[页面布局]",
+  "fullName" : "testcases.test_userFeedbackIframePage.TestUserFeedbackIframePage#test_feedback_3",
+  "historyId" : "d5e13bb42dd8492c58e1bb268a947dac",
+  "time" : {
+    "start" : 1654606877335,
+    "stop" : 1654606877335,
+    "duration" : 0
+  },
+  "description" : "意见反馈-反馈类型选页面布局，被选中：页面布局",
+  "descriptionHtml" : "<p>意见反馈-反馈类型选页面布局，被选中：页面布局</p>\n",
+  "status" : "broken",
+  "statusMessage" : "_pytest.fixtures.FixtureLookupError: ('_driver', <SubRequest 'userFeedbackIframePage' for <Function test_feedback_3[\\u9875\\u9762\\u5e03\\u5c40]>>)",
+  "statusTrace" : "file F:\\PycharmProjects\\pytest_selenium_allure\\testcases\\test_userFeedbackIframePage.py, line 38\n      @pytest.mark.parametrize(\"test_input\", [\"页面布局\", \"提BUG\", \"改进建议\"])\n      def test_feedback_3(self, userFeedbackIframePage: UserFeedbackIframePage, test_input):\nfile F:\\PycharmProjects\\pytest_selenium_allure\\testcases\\conftest.py, line 78\n  @pytest.fixture(scope=\"session\")\n  def userFeedbackIframePage(_driver, base_url):\nE       fixture '_driver' not found\n>       available fixtures: base_url, browser, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, db, doctest_namespace, extra, include_metadata_in_junit_xml, login_driver, metadata, monkeypatch, open_feedback, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, userFeedbackIframePage, userInfoPage, userLoginPage, userRegisterPage, worker_id\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nF:\\PycharmProjects\\pytest_selenium_allure\\testcases\\conftest.py:78",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_userFeedbackIframePage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserFeedbackIframePage"
+  }, {
+    "name" : "host",
+    "value" : "SC-201811111704"
+  }, {
+    "name" : "thread",
+    "value" : "25952-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_userFeedbackIframePage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_input",
+    "value" : "'页面布局'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "116c2fb1eb256246.json",
+  "parameterValues" : [ "'页面布局'" ]
+}
