@@ -52,7 +52,7 @@ def browser():
     chrome_options.add_argument('--disable-dev-shm-usage')
     chrome_options.add_argument('--window-size=1920,1080')  # 设置当前窗口的宽度和高度
     if _driver is None:
-        _driver = webdriver.Chrome('chromedriver', chrome_options=chrome_options)
+        _driver = webdriver.Chrome('chromedriver', options=chrome_options)
         # _driver = webdriver.Chrome()
     # _driver.maximize_window()
     yield _driver
