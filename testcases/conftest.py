@@ -4,7 +4,7 @@ import os.path
 import allure
 import pytest
 from selenium import webdriver
-
+from selenium.webdriver.chrome.options import Options
 from common.connect_mysql import dbinfo, DbConnect
 from pages.UserFeedbackIframePage import UserFeedbackIframePage
 from pages.UserInfoPage import UserInfoPage
@@ -13,6 +13,7 @@ from pages.UserRegisterPage import UserRegisterPage
 
 
 _driver = None
+
 
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)
 def pytest_runtest_makereport(item, call):
@@ -44,9 +45,16 @@ def pytest_runtest_makereport(item, call):
 @pytest.fixture(scope="session", name="driver")
 def browser():
     global _driver
+    chrome_options = Options()
+    chrome_options.add_argument('--headless')  # 无界面
+    chrome_options.add_argument('--no-sandbox')  # 解决DevToolsActivePort文件不存在报错问题
+    chrome_options.add_argument('--disable-gpu')  # 禁用GPU硬件加速。如果软件渲染器没有就位，则GPU进程将不会启动。
+    chrome_options.add_argument('--disable-dev-shm-usage')
+    chrome_options.add_argument('--window-size=1920,1080')  # 设置当前窗口的宽度和高度
     if _driver is None:
-        _driver = webdriver.Chrome()
-    _driver.maximize_window()
+        _driver = webdriver.Chrome('chromedriver', chrome_options=chrome_options)
+        # _driver = webdriver.Chrome()
+    # _driver.maximize_window()
     yield _driver
     _driver.quit()
 

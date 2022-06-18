@@ -19,7 +19,7 @@ class TestUserFeedbackIframePage():
         """意见反馈 - 反馈类型有三个下拉选项：改进建议，页面布局，提BUG"""
         all_options = userFeedbackIframePage.all_options()
         print("所有的下拉选项内容：", all_options)
-        assert all_options == "['改进建议', '页面布局', '提BUG']"
+        assert all_options == ['改进建议', '页面布局', '提BUG']
 
     def test_feedback_2(self, userFeedbackIframePage: UserFeedbackIframePage):
         """意见反馈-反馈类型选页面布局，被选中：页面布局"""
